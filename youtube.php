@@ -15,6 +15,6 @@
       <h4>भी.न.पा. कार्यालयका कार्यक्रमहरूका केही झलकहरू</h4>
     </div>
     <div class="card">
-      <iframe height="450" src="<?php echo $data['Url'] ?>" frameborder="0" allowfullscreen></iframe>
+      <iframe height="450" src="<?php echo $data['Url'] ?>?autoplay=1" frameborder="0" allowfullscreen></iframe>
     </div>
   </div> <!-- col-sm-7  -->
