@@ -10,7 +10,7 @@
       $err['email'] = 'Enter email';
     }
     if(isset($_POST['password']) && !empty(isset($_POST['password']))) {
-      $password = $_POST['password'];
+      $password = md5($_POST['password']);
     } else {
       $err['password'] = 'Enter password';
     }
